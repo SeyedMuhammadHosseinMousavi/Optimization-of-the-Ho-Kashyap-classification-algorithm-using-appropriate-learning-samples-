@@ -14,11 +14,6 @@ This repository contains the implementation of the paper **"Optimization of the 
   - [Multi-Class Instance Selection (MCIS)](#multi-class-instance-selection-mcis)
   - [Ho-Kashyap Algorithm](#ho-kashyap-algorithm)
   - [Pipeline Overview](#pipeline-overview)
-- [Implementation](#implementation)
-- [Results](#results)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [References](#references)
-
 ---
 
 ## Introduction
@@ -77,14 +72,6 @@ The Ho-Kashyap algorithm is a linear classification technique used to solve clas
    - Use the Ho-Kashyap algorithm or another classifier (e.g., SVM, KNN) for final classification.
 
 ---
-
-## Implementation
-
-The implementation in this repository follows the steps outlined in the paper:
-1. **Load the dataset** and preprocess it by handling missing values and scaling features.
-2. **Apply MCIS** to identify boundary and representative instances.
-3. **Train an SVM classifier** using the processed dataset.
-4. **Evaluate performance** using metrics such as accuracy, precision, recall, and F1-score.
 
 ---
 ![res](https://github.com/user-attachments/assets/14df9c15-b2cf-4b8a-92ca-fea80dabf933)
